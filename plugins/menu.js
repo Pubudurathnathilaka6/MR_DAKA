@@ -84,7 +84,7 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥷Made by DAKA XMD👑
 
 > ROBIN MENU MSG
 `;
@@ -92,7 +92,7 @@ ${menu.search}
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://drive.google.com/file/d/11IWXN7FjbpwxYBBQyR2F9AOoz6REtxgh/view?usp=drivesdk",
           },
           caption: madeMenu,
         },
