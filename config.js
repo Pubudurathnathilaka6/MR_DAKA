@@ -14,4 +14,5 @@ module.exports = {
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   MODE: process.env.MODE || "public",
   GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyAGGp4aNSDduYAv_GRNvzH2bUNatdhtcG4",
+  MOVIE_API_KEY:process.env.MOVIE_API_KEY || "sky|ca70d4e55802ee4f3004cf1aeb2811f4e11bf208",
 };
