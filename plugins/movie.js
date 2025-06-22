@@ -12,7 +12,7 @@ const API_KEY = config.MOVIE_API_KEY;
 cmd({
     pattern: "movie",
     alias: ["moviedl", "films"],
-    react: '🎬',
+    react: '📽️',
     category: "download",
     desc: "Search and download movies from PixelDrain",
     filename: __filename
@@ -66,7 +66,7 @@ cmd({
                 document: fs.readFileSync(filePath),
                 mimetype: 'video/mp4',
                 fileName: `${selectedMovie.title}-480p.mp4`,
-                caption: `🎬 *${selectedMovie.title}*\n📌 Quality: 480p\n✅ *Download Complete!*`,
+                caption: `📽️ *${selectedMovie.title}*\n📌 Quality: 480p\n✅ *Download Complete!*`,
                 quoted: mek 
             });
             fs.unlinkSync(filePath);
