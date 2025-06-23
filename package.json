@@ -28,5 +28,6 @@
     "fb-downloader-scrapper": "^2.0.0",
     "canvas": "^3.0.1",
     "@vreden/youtube_scraper": "^1.2.7"
+    "gtts":"^0.2.1"
   }
 }
